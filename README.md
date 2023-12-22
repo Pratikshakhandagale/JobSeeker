@@ -1,4 +1,8 @@
-# vistaar-seeker-frontend 
+# Frontend setup
+- Use ```nodejs - v16.x.x```
+- Run ```npm i``` command to install dependencies
+- Run  ```npm run dev``` command to run application
+- open URL in browser - ```http://localhost:5173```
 
 
 
