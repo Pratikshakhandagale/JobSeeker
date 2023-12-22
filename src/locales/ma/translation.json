@@ -1,0 +1,80 @@
+{
+  "welcome": "JOB Seeker",
+  "footerText": "सह विकसित केले",
+  "footerText1":"द्वारे Tekdi Technologies",
+  "onestText": "विस्तार",
+
+  "state": "राज्य",
+  "district": "जिल्हा",
+  "type": "प्रदेश",
+  "target":"लक्ष्य-वापरकर्ते",
+  "branch":"शाखा",
+
+  "actor": "अभिनेता",
+  "video": "व्हिडिओ",
+  "audio": "ऑडिओ",
+  "read": "वाचा",
+  "1": "१",
+  "2": "२",
+  "3": "३",
+  "4": "४",
+  "5": "५",
+  "6": "६",
+  "7": "७",
+  "8": "८",
+  "9": "९",
+  "10": "१०",
+  "11": "११",
+  "12": "१२",
+  "13": "१३",
+  "14": "१४",
+  "15": "१५",
+  "16": "१६",
+  "student":"विद्यार्थी",
+  "parent":"माता-पिता",
+  "teacher":"अध्यापक",
+  "button1":"कहानी एक्सप्लोरर",
+  "button2":"एआई चैटबॉट",
+  "button3":"QR स्कैन",
+  "button4":"गतिविधि एक्सप्लोरर",
+  "button5":"दीक्षा एआई डिस्कवरी",
+
+  
+  "conceptButton":"संकल्पना स्पष्टता वीडियो",
+  "QuestionsButton":"पूछे जाने वाले प्रश्न",
+  "PracticeButton":"अभ्यास पत्रक",
+  "ActivityButton":"कक्षा गतिविधियाँ",
+  "TestButton":"अपनी बुद्धि जाचें",
+  "HelpButton":"AI हेल्पबॉट",
+  "QRbasedAItool": "QR आधारित AI टूल",
+  "searchCollection":"शीर्षक के आधार पर संग्रह खोजें",
+  "Headers":"हेडर",
+  "Other":"अन्य",
+  "List_Order":"सूची आदेश",
+
+  "language":"भाषा",
+  "Theme":"थीम",
+  "Age":"उम्र",
+  "Title":"शीर्षक",
+  "Crop":"कमोडिटी",
+  "Created_date":"बनाई गई तारीख",
+  "Description":"विवरण",
+  "Published_By":"द्वारा प्रकाशित",
+  "Add_to_BookMark":"बुकमार्क में जोड़ें",
+  "Content":"अंतर्वस्तु",
+  "My_BookMarks":"माई बुकमार्क्स",
+  "Domain":"कार्यक्षेत्र",
+
+  "Filter_your_results":"तुमचे परिणाम फिल्टर करा",
+  "Publisher":"प्रकाशक",
+  "view_deatils": "तपशील पहा",
+  "Apply" : "अर्ज करा"
+
+
+  
+  
+ 
+
+
+ 
+}

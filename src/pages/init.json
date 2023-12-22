@@ -1,0 +1,164 @@
+{
+    "context": {
+        "ttl": "PT10M",
+        "action": "init",
+        "timestamp": "2023-12-22T10:14:01.526Z",
+        "message_id": "c51e1276-f48e-47ad-8468-f0545108a475",
+        "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c60008",
+        "domain": "onest:work-opportunities",
+        "version": "1.1.0",
+        "bap_id": "jobs-bap.tekdinext.com",
+        "bap_uri": "https://jobs-bap.tekdinext.com",
+        "bpp_id": "dash-beckn.tibilapps.com",
+        "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network"
+    },
+    "responses": [
+        {
+            "context": {
+                "domain": "onest:work-opportunities",
+                "action": "on_init",
+                "version": "1.1.0",
+                "bpp_id": "dash-beckn.tibilapps.com",
+                "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network",
+                "country": "IND",
+                "city": "std:080",
+                "bap_id": "jobs-bap.tekdinext.com",
+                "bap_uri": "https://jobs-bap.tekdinext.com",
+                "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c60008",
+                "message_id": "c51e1276-f48e-47ad-8468-f0545108a475",
+                "ttl": "PT10M",
+                "timestamp": "2023-12-22T10:14:05.930Z"
+            },
+            "message": {
+                "order": {
+                    "provider": {
+                        "id": "1",
+                        "descriptor": {
+                            "name": "PGI technologies"
+                        }
+                    },
+                    "items": [
+                        {
+                            "id": "1",
+                            "descriptor": {
+                                "name": "BDE/CIC - Just Dial"
+                            },
+                            "location_ids": [
+                                "1"
+                            ],
+                            "fulfillment_ids": [
+                                "1"
+                            ],
+                            "tags": [
+                                {
+                                    "descriptor": {
+                                        "name": "Work Experience"
+                                    },
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "name": "Min Experience"
+                                            },
+                                            "value": "0"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "name": "Max Experience"
+                                            },
+                                            "value": "2"
+                                        }
+                                    ],
+                                    "display": true
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "Educational Qualifications"
+                                    },
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "name": "Min Qualification"
+                                            },
+                                            "value": "         Graduate\n"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "name": "Max Qualification"
+                                            },
+                                            "value": "         Graduate\n"
+                                        }
+                                    ],
+                                    "display": true
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "Salary Compensation",
+                                        "code": "salary-info"
+                                    },
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "name": "Min Salary"
+                                            },
+                                            "value": "18000"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "name": "Max Salary"
+                                            },
+                                            "value": "30000"
+                                        }
+                                    ],
+                                    "display": true
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "Gender",
+                                        "code": "gender"
+                                    },
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "name": "Gender"
+                                            },
+                                            "value": "Both"
+                                        }
+                                    ],
+                                    "display": true
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "Age",
+                                        "code": "age"
+                                    },
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "name": "Min Age"
+                                            },
+                                            "value": "18"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "name": "Max Age"
+                                            },
+                                            "value": "35"
+                                        }
+                                    ],
+                                    "display": true
+                                }
+                            ],
+                            "xinput": {
+                                "form": {
+                                    "mime_type": "text/html",
+                                    "url": "https://dash-beckn.tibilapps.com/job/form?org_id=1&transaction_id=a9aaecca-10b7-4d19-b640-b047a7c60008&job_id=1"
+                                }
+                            }
+                        }
+                    ],
+                    "type": "DEFAULT"
+                }
+            }
+        }
+    ]
+}

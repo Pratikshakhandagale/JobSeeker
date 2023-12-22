@@ -1,0 +1,27 @@
+.contentDisplay {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+
+.labelText {
+  font-size: 14px;
+  font-weight: bold;
+  /* background-color: #eae6e7; */
+  height: 50px;
+  padding: 10px;
+  white-space: pre-line;
+  display: inline-block;
+  line-height: 1.4;
+}
+.tabledata {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 600px) {
+  .tabledata {
+    display: block;
+  }
+}

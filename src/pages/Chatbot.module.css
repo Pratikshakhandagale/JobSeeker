@@ -1,0 +1,97 @@
+.iframe {
+  width: 100%;
+  height: 450px;
+  border: none;
+}
+
+.buttons {
+  width: 500px;
+}
+
+.student {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 0px;
+  color: #4a86e8;
+}
+
+.text {
+  font-weight: 500;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: rgb(73, 73, 73);
+  border-style: solid;
+  border-width: 0.5px;
+  border-top: none;
+}
+.backbutton {
+  background-color: #d9654c;
+  border: #d9654c;
+  height: 25px;
+  width: 100px;
+  margin-left: 25px;
+  border-radius: 2px;
+  color: white;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  margin-top: auto;
+}
+
+.footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  /* Add any other styling you need for the footer */
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  /* Add any other styling you need for the loading indicator */
+}
+
+/* CSS for chat container */
+/* Center the chat container horizontally on the page */
+.chatcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 360px; /* Set the maximum width for mobile view */
+  height: 85vh;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* CSS for chat content */
+.chatcontent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+/* CSS for loading indicator */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-weight: bold;
+}
+
+/* You can style your Header, HeaderDiksha, Messages, and Footer components within the .chat-content div */

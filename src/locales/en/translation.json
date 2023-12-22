@@ -1,0 +1,87 @@
+{
+    "welcome": "VISTAAR",
+    "footerText": "Developed with",
+    "footerText1":"by Tekdi Technologies",
+    "onestText": "Vistaar",
+
+    "state": "State",
+    "district": "District",
+    "type": "Region",
+    "target":"Target-Users",
+    "branch":"Branch",
+
+    "actor": "Actor",
+    "video": "Video",
+    "audio": "Audio",
+    "read": "Read",
+    "other": "Other",
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5",
+    "6": "6",
+    "7": "7",
+    "8": "8",
+    "9": "9",
+    "10": "10",
+    "11": "11",
+    "12": "12",
+    "13": "13",
+    "14": "14",
+    "15": "15",
+    "16": "16",
+    "student":"Student",
+    "parent":"Parent",
+    "teacher":"Teacher",
+    
+    "button1":"Kahani Explorer",
+    "button2":"AI Chatbot",
+    "button3":"QR Scan",
+    "button4":"Activity Explorer",
+    "button5":"Diksha AI Discovery",
+    "conceptButton":"Concept Clarity Videos",
+    "QuestionsButton":"Questions to Ask",
+    "PracticeButton":"Practice Sheets",
+    "ActivityButton":"Class Activities",
+    "TestButton":"Test your Knowledge",
+    "HelpButton":"AI HelpBot",
+    "QRbasedAItool": "QR based AI Tool",
+    "searchCollection":"Search collection by title",
+    "Headers":"Headers",
+    "Other":"Other",
+    "List_Order":"List Order",
+
+    "language":"Language",
+    "Theme":"Theme",
+    "Age":"Age",
+    "Title":"Title",
+    "Created_date":"Created Date",
+    "Description":"Description",
+    "Crop":"Commodity",
+    "Published_By":"Published By",
+    "Add_to_BookMark":"Add to BookMark",
+    "Content":"Content",
+    "My_BookMarks":"My BookMarks",
+    "Domain":"Domain",
+    "Filter_your_results":"Filter your results!",
+    "Publisher":"Publisher",
+    "view_deatils": "View Details",
+    "Apply" : "Apply",
+    "Sector":"sector",
+    "Sub_sector":"sub sector",
+    "Job_role":"Job role",
+    "Job_state":"Job state",
+    "Job_destrict":"Job destrict",
+    "Education":"Education"
+
+
+
+
+    
+    
+   
+
+
+   
+  }

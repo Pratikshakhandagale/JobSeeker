@@ -1,0 +1,76 @@
+
+.Example__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  margin-top: 30px;
+  /* width: fit-content; */
+}
+
+.Example__container__document .react-pdf__Document {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Example__container__document .react-pdf__Page {
+  max-width: calc(100% - 2em);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.Example__container__document .react-pdf__Page canvas {
+  max-width: 100%;
+  height: auto !important;
+  width: 100%;
+  height: 100%;
+}
+.page {
+  background-color: white;
+  position: relative;
+  height: 450px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.previous {
+  background-color: #4F6F4A
+  ; /* Blue */
+  color: #ffffff; /* White */
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #4F6F4A
+  ;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.previous:hover{
+  background-color: #4F6F4A
+  ;
+}
+.next:hover{
+  background-color: #4F6F4A
+  ;
+}
+.next{
+  background-color: #4F6F4A
+  ; /* Blue */
+  color: #ffffff; /* White */
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #4F6F4A
+  ;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.buttonc {
+  margin-bottom: 48px;
+}

@@ -1,0 +1,15 @@
+.imgDiv {
+    border-radius: 2%;
+    height: 350px;
+    width: 260px;
+}
+.imgDiv:hover{
+    cursor:pointer; 
+  }
+  .grid_holder {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 12px;
+    grid-row-gap: 15px;
+  }

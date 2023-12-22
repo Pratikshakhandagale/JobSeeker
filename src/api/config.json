@@ -1,0 +1,30 @@
+{
+    "siteName": "JOB Seeker",
+    "siteByLine": "Listen, Learn & Grow !!!",
+    "apiEndPoint": "/cache/search",
+    
+    "pagination": "10",
+    "orderBy": "2023-10-20T07:46:27.732028+00:00",
+    "filterBy": "default",
+    "footerText": "Developed with ❤️ by Tekdi Technologies ",
+    "headerColor": "white",
+    "headerFontSize": "16",
+ 
+    
+    "filters": {
+        "minAge": "",
+        "language": "",
+        "contentType": ""
+    },
+    
+    "searchFilters":{
+            "sector":["Information Technology","Healthcare","Finance","Manufacturing"],
+            "subSector":["Devops","frontend","backend","HR","accounts"],
+            "jobRole":["Devoloper","Engineer","tester","Analyst"],
+            "jobState":["Maharashtra","Goa","Karnataka","Tamil Nadu"],
+            "jobDistrict":["Pune","Akola","Nashik","Thane","Ratnagiri","Udupi","Sindhudurg"],
+            "education":["BE","B-tech","BCA","ME","M-Tech","MCA", "B-com", "M-com"]
+        },
+    "logo": "../assets/logo.png"
+}
+

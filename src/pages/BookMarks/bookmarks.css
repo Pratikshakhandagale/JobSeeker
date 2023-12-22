@@ -1,0 +1,19 @@
+.bookmark-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bookmark-table th,
+.bookmark-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.bookmark-table th {
+  background-color: #0f75bc;
+}
+
+/* .bookmark-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
