@@ -149,6 +149,7 @@ const ProductCard = ({ product }) => {
 
             <Text marginTop={'2'} fontSize={18}>{product?.title} </Text>
 
+
             {product?.company ? (
               <Text marginTop={'2'} fontSize={14} fontWeight={700}>{product?.company}</Text>
             ) : (

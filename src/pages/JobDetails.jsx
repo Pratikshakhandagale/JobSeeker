@@ -5,8 +5,8 @@ import { FaRupeeSign, FaBriefcase } from 'react-icons/fa';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
-import selectJson from './select.json';
-
+import selectJson from '../assets/bodyJson/selectResult.json';
+import Loader from './Loader'; 
 import {
     Box,
     Text,
@@ -17,6 +17,7 @@ import {
 } from "@chakra-ui/react";
 
 function JobDetails() {
+    const [loading, setLoading] = useState(true);
 
     const location = useLocation();
     const state = location?.state;
@@ -27,9 +28,8 @@ function JobDetails() {
 
     const [jobInfo, setJobInfo] = useState(state?.product);
    const [jobsData, setJobsData] = useState(null);
-        // const [jobDetails, setJobDetails] = useState(selectJson);
+         const [jobDetails, setJobDetails] = useState(null);
 
-    const [loading, setLoading] = useState(false);
 
     // const jobsData  = selectJson?.responses[0]?.message?.order?.items[0]
     //console.log(jobsData);
@@ -38,11 +38,10 @@ function JobDetails() {
       try {
         setLoading(true);
   
-        const response = await fetch('https://jobs-client.tekdinext.com/select', {
+        const response = await fetch('https://jobs-api.tekdinext.com/select', {
           method: 'POST',
           headers: {
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': '*' 
+            'Content-Type': 'application/json'
           },
           body: JSON.stringify({
                 "context": {
@@ -52,7 +51,7 @@ function JobDetails() {
                     "bap_id": "jobs-bap.tekdinext.com",
                     "bap_uri": "https://jobs-bap.tekdinext.com",
                     "bpp_id": jobInfo?.bpp_id,
-                    "bpp_uri": jobInfo?.bpp_uri,
+                    "bpp_uri": 'https://dash-beckn.tibilapps.com/protocol-network',//jobInfo?.bpp_uri,
                     "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c60008",
                     "message_id": "a9aaecca-10b7-4d19-b640-b047a7c60009",
                     "timestamp": "2023-02-06T09:55:41.161Z"
@@ -75,7 +74,8 @@ function JobDetails() {
   
         const data = await response.json();
   console.log({data});
-        setjobsData(data);
+  setJobDetails(data)
+  setJobsData(data?.responses[0]?.message?.order?.items[0]);
       } catch (error) {
         console.error('Error fetching job details:', error);
       } finally {
@@ -153,15 +153,22 @@ function JobDetails() {
                         backgroundColor="blue.500"
                         color="white"
                         onClick={() => {
-                            navigate("/apply");
+                            navigate("/apply", {
+                                state: {
+                                    jobDetails: jobDetails,
+                                },
+                              });
                         }}
                     >  {t("Apply")}
 
                     </Button>
                 </Box>
                 </Box>
+                {loading ? ( <Loader />
+      ) : (
                 <Box  padding={10}  fontFamily={'serif'}>
                 <Text fontSize={20}  fontWeight={700}>Job Description</Text>
+                
                 {jobInfo?.description ? (
                                 <Text marginTop={4} fontSize={13} color={"gray.700"}>  {jobInfo?.description}  </Text>
                             ) : (
@@ -189,8 +196,9 @@ function JobDetails() {
                     ))}
                 </Box>
 
-              
+               
             </Box>
+             )}
             {/* <Box marginLeft={5} fontFamily={'serif'}>
                 <Tabs variant='enclosed' marginTop={5}>
                     <TabList>

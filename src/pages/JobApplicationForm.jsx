@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import Header from './Header';
 import initJson from './init.json';
+import { useLocation } from 'react-router-dom';
 
 import {
   Box,
@@ -28,6 +29,11 @@ const JobApplicationForm = () => {
     register,
     formState: { errors },
   } = useForm();
+
+  const location = useLocation();
+  const { initResponce } = location.state || {};
+
+  console.log({initResponce});
 
   const [submissionStatus, setSubmissionStatus] = useState(null);
   const { isOpen, onOpen, onClose } = useDisclosure();

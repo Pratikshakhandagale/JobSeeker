@@ -1,0 +1,124 @@
+{
+  "init" : [{
+    "customer": {
+    "person": {
+      "name": "",
+      "gender": "",
+      "age": "",
+      "skills": [
+        {
+          "code": "Android",
+          "name": "Android"
+        },
+        {
+          "code": "AWS",
+          "name": "AWS"
+        }
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name": "english"
+        },
+        {
+          "code": "ml",
+          "name": "Malayalam"
+        },
+        {
+          "code": "hi",
+          "name": "Hindi"
+        }
+      ],
+      "tags": [
+        {
+          "code": "current-experience",
+          "list": [
+            {
+              "descriptor": {
+                "code": "exp-years",
+                "name": "Experience"
+              },
+              "value": ""
+            },
+            {
+              "descriptor": {
+                "code": "current-company",
+                "name": "Current Company"
+              },
+              "value": ""
+            }
+          ]
+        },
+        {
+          "code": "salary-details",
+          "list": [
+            {
+              "descriptor": {
+                "code": "expected-salary",
+                "name": "Expected Salary"
+              },
+              "value": ""
+            },
+            {
+              "descriptor": {
+                "code": "current-salary",
+                "name": "Current Salary"
+              },
+              "value": ""
+            }
+          ]
+        },
+        {
+          "code": "documents",
+          "list": [
+            {
+              "descriptor": {
+                "code": "resume",
+                "name": "resume"
+              },
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "phone": "9999999999999",
+      "email": "abc@abc.bc"
+    }
+  }
+},
+{
+  "context": {
+      "domain": "onest:work-opportunities",
+      "action": "init",
+      "version": "1.1.0",
+      "bap_id": "jobs-bap.tekdinext.com",
+      "bap_uri": "https://jobs-bap.tekdinext.com",
+      "bpp_id": "dash-beckn.tibilapps.com",
+      "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network",
+      "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c60008",
+      "message_id": "a9aaecca-10b7-4d19-b640-b047a7c60009",
+      "timestamp": "2023-02-06T09:55:41.161Z"
+  },
+  "message": {
+      "order": {
+          "provider": {
+              "id": ""
+          },
+          "items": [
+              {
+                  "id": ""
+              }
+          ],
+          "fulfillments": [
+              {
+                  "id": "",
+                  "customer": {
+                  }
+              }
+          ]
+      }
+  }
+}]
+}
